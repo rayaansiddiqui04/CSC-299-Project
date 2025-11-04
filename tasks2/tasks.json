@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Test task",
+    "priority": 2,
+    "status": "doing",
+    "due": null,
+    "tags": [
+      "cs"
+    ],
+    "project": null,
+    "note": "",
+    "subtasks": [],
+    "created_at": "2025-11-03T22:29:01",
+    "updated_at": "2025-11-03T22:30:06"
+  },
+  {
+    "id": 2,
+    "title": "Finish DS homework",
+    "priority": 2,
+    "status": "todo",
+    "due": "2025-11-08",
+    "tags": [
+      "school",
+      "cs"
+    ],
+    "project": "CSC301",
+    "note": "AVL Trees",
+    "subtasks": [
+      {
+        "title": "Outline",
+        "done": false
+      },
+      {
+        "title": "Code",
+        "done": false
+      },
+      {
+        "title": "Test",
+        "done": false
+      }
+    ],
+    "created_at": "2025-11-03T22:29:54",
+    "updated_at": "2025-11-03T22:29:54"
+  }
+]

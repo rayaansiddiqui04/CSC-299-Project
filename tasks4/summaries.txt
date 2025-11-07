@@ -1,0 +1,13 @@
+Task 1:
+Develop a Python tool that analyzes large CSV files containing sales
+        transactions, computes key statistics like total revenue and average
+        order value, and exports the summary to a new file.
+Summary: Python tool to analyze sales CSV and export summary
+
+
+Task 2:
+Design an AI-powered chatbot that assists students with homework
+        questions, uses natural language understanding to detect question
+        topics, and suggests follow-up resources or explanations.
+Summary: AI chatbot for student homework help with topic detection
+

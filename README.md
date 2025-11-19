@@ -1,26 +1,42 @@
-# TaskTracker AI – Tasks 2
+# LifeDesk AI – Final Project
 
-### Overview
-**TaskTracker AI (Tasks 2)** is a command-line task manager built in Python for CSC 299.  
-It stores tasks in a JSON file and supports adding, listing, searching, marking done, and exporting tasks — all from your terminal.  
-This version expands on *Tasks 1* with filters, subtasks, tags, projects, due-dates, and a smart “suggest” command.
+LifeDesk AI is a terminal-based **personal knowledge + task management system** with **AI agents** that help you prioritize tasks and study from your own notes.
 
----
-
-### 🚀 Features
-- Add tasks with **priority**, **due date**, **tags**, and **project**
-- Update or mark tasks **done**
-- Filter tasks by **status**, **tags**, or **due date**
-- **Search** titles and notes
-- **Suggest** top 3 next tasks based on urgency
-- Display tasks in **table** or **kanban** view
-- **Export** tasks to `.json` or `.md`
-- Data automatically saved in `tasks.json`
+It is written in **Python**, stores its state in a **JSON file**, and runs on **Windows, macOS, and Linux**.
 
 ---
 
-### ⚙️ Installation & Setup
+## Features
+
+### ✅ Personal Task Management
+- Add tasks with **priority**, **due date**, **tags**, and optional notes
+- List tasks (all, or filtered by status)
+- Mark tasks as **done**
+- Data stored in `data/lifedesk_state.json`
+
+### ✅ Personal Knowledge Management (PKMS)
+- Add notes with title, body, and tags
+- List all notes
+- Search notes by keyword in **title, body, or tags**
+
+### ✅ Terminal-based Chat Interface with AI Agents
+- `chat tasks` – Ask an AI agent to analyze your stored tasks and suggest the **top 3 tasks** to do next
+- `chat notes` – Ask questions about your stored notes and get answers based on your own knowledge base
+
+If the OpenAI client is not configured, the app still works and prints a helpful message instead of failing.
+
+---
+
+## Installation
+
+You can use any virtual environment tool (e.g. `uv`, `venv`, or `pipenv`).
+
+Example using plain `python` + `pip`:
+
 ```bash
-cd ~/Desktop/CSC-299-Project/tasks2
-python3 --version   # should show Python 3.10+
-[ -f tasks.json ] || echo "[]" > tasks.json
+cd "final project - Lifedesk AI"
+
+python -m venv .venv
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+
+pip install -r requirements.txt

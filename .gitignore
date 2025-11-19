@@ -6,6 +6,28 @@ __pycache__/
 .venv/
 
 # State data (don't upload your personal tasks/notes)
+Final Project - LifeDesk AI/data/lifedesk_state.json
+
+# macOS junk
+.DS_Store# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# State data (don't upload your personal tasks/notes)
+Final Project - LifeDesk AI/data/lifedesk_state.json
+
+# macOS junk
+.DS_Store# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# State data (don't upload your personal tasks/notes)
 final project - Lifedesk AI/data/lifedesk_state.json
 
 # macOS junk

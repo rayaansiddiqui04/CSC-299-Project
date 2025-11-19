@@ -1,3 +1,4 @@
+
 # TaskTracker AI – Tasks 2
 
 ### Overview
@@ -17,10 +18,23 @@ This version expands on *Tasks 1* with filters, subtasks, tags, projects, due-da
 - **Export** tasks to `.json` or `.md`
 - Data automatically saved in `tasks.json`
 
----
 
-### ⚙️ Installation & Setup
-```bash
-cd ~/Desktop/CSC-299-Project/tasks2
-python3 --version   # should show Python 3.10+
-[ -f tasks.json ] || echo "[]" > tasks.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
